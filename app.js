@@ -1,5 +1,8 @@
-const fileInput =
-document.getElementById("fileInput");
+console.log("App carregado");
+
+console.log(XLSX);
+
+const fileInput = document.getElementById("fileInput");
 
 fileInput.addEventListener("change", lerArquivo);
 
